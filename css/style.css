@@ -396,7 +396,8 @@
     width: 100%;
     text-align: center;
     border-style: dotted;
-    border-color: var(--bs-white); 
+    /* border-color: var(--bs-white);  */
+    border-color: #f5207d;
     font-size: 30px;
 }
 /*** Counter End ***/
