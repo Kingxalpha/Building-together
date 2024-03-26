@@ -121,6 +121,11 @@
     transition: 0.5s;
 }
 
+.about-flex{
+    display: flex; 
+    align-items: center; 
+    gap: 40px;
+}
 .topbar {
     padding: 2px 10px 2px 20px;
     background: var(--bs-primary) !important;
@@ -143,6 +148,11 @@
 @media (max-width: 768px) {
     .topbar {
         display: none;    
+    }
+    .about-flex{
+    
+        flex-direction: column;
+
     }
 }
 /*** Topbar End ***/
