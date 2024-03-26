@@ -407,7 +407,11 @@
     font-size: 30px;
 }
 /*** Counter End ***/
-
+.cont-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
 
 /*** causes Start ***/
 .causes .causes-item {
