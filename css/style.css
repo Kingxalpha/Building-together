@@ -57,6 +57,17 @@
 .btn-color:hover{
     background-color: #1b9ddb;
 }
+.file{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .file {
+        flex-direction: column;   
+    }
+}
 
 .btn-square {
     width: 32px;
